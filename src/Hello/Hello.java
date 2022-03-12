@@ -8,6 +8,7 @@ public class Hello {
 		// testaizawaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 		// kamikamikamiyamayama
 		// ioriiori
+		//osososososos
 	}
 
 }
