@@ -13,7 +13,6 @@ public class Hello {
 		// kamikamikamiyamayama
 		// 20210312kamikami
 		// ioriiori
-		//osososososos
 	}
 
 }
