@@ -7,6 +7,7 @@ public class Hello {
 		System.out.println("Hello World!!");
 		// testaizawa20220312
 		// kamikamikamiyamayama
+		// 20210312kamikami
 		// ioriiori
 	}
 
