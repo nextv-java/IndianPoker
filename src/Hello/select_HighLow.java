@@ -32,7 +32,7 @@ public class select_HighLow {
 		System.out.println("あなたの引いたカードは"+ lm +"です。");
 		
 		if(ln == true){
-			System.out.println(" →You Win!");
+			System.out.println(" →You Win!!");
 		}else{
 			System.out.println(" →YOU LOSE!!!! （ﾌﾞｳｳｳｳｳｳ!!!!）たかがゲーム、そう思ってないですか？\n"
 								+ " それやったら次も俺が勝ちますよ。\n"
