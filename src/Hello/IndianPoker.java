@@ -61,7 +61,15 @@ public class IndianPoker{
 	Map<Integer,PlayingCard> deck = new HashMap<Integer,PlayingCard>();
 	Map<Integer,PlayingCard> disCard = new HashMap<Integer,PlayingCard>();
 	
+	public static void main(String[] args) {
+		IndianPoker ip = new IndianPoker();
+		ip.start();
+	}
+	
 	public void start() {
+		
+		//メッセージ表示クラス
+		select_HighLow sh = new select_HighLow();		
 		
 		//カード作成
 		createCard();
@@ -77,18 +85,14 @@ public class IndianPoker{
 		PlayingCard cardB = deck.get(cardIdB);  
 		
 		//メッセージ表示
-		//int anser = いおりさん(cardA.number);
-		System.out.println(cardA.number);
-		int anser = 1; 		
+		int anser = sh.select_message(cardA.number); 		
 		
 		//結果判定
 		//Boolean result = かみやまさん(cardA.number, cardB.number, anser);
 		Boolean result = true;
 		
 		//結果表示
-		//いおりさん(cardB.number,result);
-		System.out.println(cardB.number);
-		System.out.println("不正解");
+		sh.result_message(cardB.number,result);
 
 	}
 		

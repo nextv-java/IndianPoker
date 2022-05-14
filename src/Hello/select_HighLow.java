@@ -5,11 +5,11 @@ public class select_HighLow {
 
 	public static void main(String[] args) {
 		select_HighLow Select = new select_HighLow();
-		int fn = Select.Select_message(5);
+		int fn = Select.select_message(5);
 		Select.result_message(10,false);
 	}
 	
-	public int Select_message(int fs) {
+	public int select_message(int fs) {
 		
 		System.out.println("現在のカードは"+ fs +"です。");
 		System.out.println("High  or  Low?(1/0)>");
