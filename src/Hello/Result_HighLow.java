@@ -11,7 +11,7 @@ public class Result_HighLow {
 		int Lose = 0;
 		int Draw = 1;
 		
-		//値の比較
+		//値の比較　testAAAA
 		//プレイヤーが[High]と予想
 		if(guess) {
 			if(player > com) {
