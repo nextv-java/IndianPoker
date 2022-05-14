@@ -12,7 +12,7 @@ public class select_HighLow {
 	public int select_message(int fs) {
 		
 		System.out.println("現在のカードは"+ fs +"です。");
-		System.out.println("High  or  Low?(1/0)>");
+		System.out.println("High  or  Low?(1/0) >");
 		
 		Scanner sc = new Scanner(System.in);
 		String select = sc.nextLine();

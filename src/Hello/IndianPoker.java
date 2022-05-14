@@ -68,7 +68,7 @@ public class IndianPoker{
 	
 	public void start() {
 		
-		//メッセージ表示クラス
+		//メッセージ表示クラスaaa
 		select_HighLow sh = new select_HighLow();		
 		
 		//カード作成
