@@ -69,7 +69,9 @@ public class IndianPoker{
 	public void start() {
 		
 		//メッセージ表示クラス
-		select_HighLow sh = new select_HighLow();		
+		select_HighLow sh = new select_HighLow();
+		//勝敗判定クラス
+		Result_HighLow rh = new Result_HighLow();  
 		
 		//カード作成
 		createCard();
@@ -85,11 +87,11 @@ public class IndianPoker{
 		PlayingCard cardB = deck.get(cardIdB);  
 		
 		//メッセージ表示
-		int anser = sh.select_message(cardA.number); 		
-		
+		int iAnser = sh.select_message(cardA.number);
+		//Highの場合trueに変換
+		boolean bAnser = (iAnser == 1); 
 		//結果判定
-		//Boolean result = かみやまさん(cardA.number, cardB.number, anser);
-		Boolean result = true;
+		int result = rh.Result(cardA.number, cardB.number, bAnser);
 		
 		//結果表示
 		sh.result_message(cardB.number,result);

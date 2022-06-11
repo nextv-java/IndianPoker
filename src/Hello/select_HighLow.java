@@ -6,7 +6,7 @@ public class select_HighLow {
 	public static void main(String[] args) {
 		select_HighLow Select = new select_HighLow();
 		int fn = Select.select_message(5);
-		Select.result_message(10,false);
+		Select.result_message(10,0);
 	}
 	
 	public int select_message(int fs) {
@@ -27,12 +27,14 @@ public class select_HighLow {
 		return num;
 	}
 	
-	public void result_message(int lm,boolean ln) {
+	public void result_message(int lm,int ln) {
 		
 		System.out.println("あなたの引いたカードは"+ lm +"です。");
 		
-		if(ln == true){
+		if(ln == 2){
 			System.out.println(" →You Win!!");
+		}else if(ln == 1){
+			System.out.println(" →Draw!!");
 		}else{
 			System.out.println(" →YOU LOSE!!!! （ﾌﾞｳｳｳｳｳｳ!!!!）たかがゲーム、そう思ってないですか？\n"
 								+ " それやったら次も俺が勝ちますよ。\n"
