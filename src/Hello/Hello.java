@@ -3,7 +3,7 @@ package Hello;
 public class Hello {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
+		// TODO 自動生成されたメソッド・スタブaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 		// System.out.println("Hello World!! world");
 		int playNum = 10;	//自分の番号
 		int comNum = 100;	//相手の番号
