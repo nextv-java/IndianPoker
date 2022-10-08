@@ -78,7 +78,7 @@ public class IndianPoker{
 		//山札設定
 		setDeck();
 		
-		//ランダムな数値取得
+		//ランダムな数値取得iori
 		//int cardIdA = ちばさん(deck);testchiba
 		//int cardIdB = ちばさん(deck);
 		int cardIdA = 21;
