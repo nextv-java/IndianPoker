@@ -68,7 +68,7 @@ public class IndianPoker{
 	
 	public void start() {
 		
-		//メッセージ表示クラスaizawa20221008
+		//メッセージ表示クラスaizawa20221008aaaaa
 		select_HighLow sh = new select_HighLow();
 		//勝敗判定クラス
 		Result_HighLow rh = new Result_HighLow();  
