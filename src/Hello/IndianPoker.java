@@ -73,7 +73,7 @@ public class IndianPoker{
 		//勝敗判定クラス
 		Result_HighLow rh = new Result_HighLow();  
 		
-		//カード作成
+		//カード作成iori
 		createCard();
 		//山札設定
 		setDeck();
