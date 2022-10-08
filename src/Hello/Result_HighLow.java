@@ -5,14 +5,15 @@ public class Result_HighLow {
 //		// TODO 自動生成されたメソッド・スタブ
 //		System.out.println("Hello World!! world");
 //	}
-	
+
 	public int Result(int player, int com, boolean guess) {
 		int Win = 2;
 		int Lose = 0;
 		int Draw = 1;
-		
+
 		//値の比較　testAAAA
 		//プレイヤーが[High]と予想
+		//神山ですyoyo
 		if(guess) {
 			if(player > com) {
 				return Win;		//プレイヤーが勝ち
