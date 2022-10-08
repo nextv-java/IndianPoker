@@ -79,7 +79,7 @@ public class IndianPoker{
 		setDeck();
 		
 		//ランダムな数値取得
-		//int cardIdA = ちばさん(deck);
+		//int cardIdA = ちばさん(deck);testchiba
 		//int cardIdB = ちばさん(deck);
 		int cardIdA = 21;
 		int cardIdB = 35;
