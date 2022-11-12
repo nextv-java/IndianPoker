@@ -1,14 +1,13 @@
 package Hello;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
 
-public class random {
+public class RandomGet{
 	
 	
 	//test
-	
+/*	
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		System.out.println("Hello World!! world");
@@ -31,12 +30,12 @@ public class random {
 		
 		
 		
-		int mar = getCardRandom(map);
+		//int mar = getCardRandom(map);
 		
 		
 		
 		
-		System.out.println("引いたカード:"+map.get(mar));
+		//System.out.println("引いたカード:"+map.get(mar));
 		//return mar;
 		//リターンで返す
 		
@@ -44,9 +43,9 @@ public class random {
 		//帰ってきた値を出力する
 		
 
-	}
+	}*/
 
-	public static int getCardRandom(Map<Integer,PlayingCard> map){//mapを取れる内容に変更する
+	public int getCardRandom(Map<Integer,PlayingCard> map){//mapを取れる内容に変更する
 		// 
 		Random random = new Random();
 		int mar = random.nextInt(map.size());//mapの数を取得して返す(deckを使う)

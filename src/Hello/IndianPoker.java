@@ -73,18 +73,17 @@ public class IndianPoker{
 		//勝敗判定クラス
 		Result_HighLow rh = new Result_HighLow();
 		//カードランダム取得クラス
-		random rd = new random();
+		RandomGet rd = new RandomGet();
 		
-		//カード作成iori
+		//カード作成
 		createCard();
 		//山札設定
 		setDeck();
 		
-		//ランダムな数値取得iori
+		//ランダムな数値取得
 		int cardIdA = rd.getCardRandom(deck);
 		int cardIdB = rd.getCardRandom(deck);
-		//int cardIdA = 21;
-		//int cardIdB = 35;
+		//その数値からカード取得
 		PlayingCard cardA = deck.get(cardIdA);  
 		PlayingCard cardB = deck.get(cardIdB);  
 		
