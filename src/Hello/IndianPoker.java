@@ -68,10 +68,12 @@ public class IndianPoker{
 	
 	public void start() {
 		
-		//メッセージ表示クラスaizawa20221008aaaaa
+		//メッセージ表示クラス
 		select_HighLow sh = new select_HighLow();
 		//勝敗判定クラス
-		Result_HighLow rh = new Result_HighLow();  
+		Result_HighLow rh = new Result_HighLow();
+		//カードランダム取得クラス
+		random rd = new random();
 		
 		//カード作成iori
 		createCard();
@@ -79,10 +81,10 @@ public class IndianPoker{
 		setDeck();
 		
 		//ランダムな数値取得iori
-		//int cardIdA = ちばさん(deck);testchiba
-		//int cardIdB = ちばさん(deck);
-		int cardIdA = 21;
-		int cardIdB = 35;
+		int cardIdA = rd.getCardRandom(deck);
+		int cardIdB = rd.getCardRandom(deck);
+		//int cardIdA = 21;
+		//int cardIdB = 35;
 		PlayingCard cardA = deck.get(cardIdA);  
 		PlayingCard cardB = deck.get(cardIdB);  
 		

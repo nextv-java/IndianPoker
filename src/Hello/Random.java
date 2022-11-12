@@ -31,7 +31,7 @@ public class random {
 		
 		
 		
-		int mar = Method(map);
+		int mar = getCardRandom(map);
 		
 		
 		
@@ -46,10 +46,8 @@ public class random {
 
 	}
 
-	public static int Method(Map<Integer,String> map){//mapを取れる内容に変更する
-		// TODO 自動生成されたメソッド・スタブ
-		
-		
+	public static int getCardRandom(Map<Integer,PlayingCard> map){//mapを取れる内容に変更する
+		// 
 		Random random = new Random();
 		int mar = random.nextInt(map.size());//mapの数を取得して返す(deckを使う)
 		return mar;
