@@ -2,13 +2,13 @@ package Hello;
 import java.util.Scanner;
 
 public class select_HighLow {
-
+/*
 	public static void main(String[] args) {
 		select_HighLow Select = new select_HighLow();
 		int fn = Select.select_message(5);
 		Select.result_message(10,0);
 	}
-	
+*/	
 	public int select_message(int fs) {
 		
 		System.out.println("現在のカードは"+ fs +"です。");

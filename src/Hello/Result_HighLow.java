@@ -6,7 +6,7 @@ public class Result_HighLow {
 //		System.out.println("Hello World!! world");
 //	}
 
-	public int Result(int player, int com, boolean guess) {
+	public int Result(int com, int player, boolean guess) {
 		int Win = 2;
 		int Lose = 0;
 		int Draw = 1;
