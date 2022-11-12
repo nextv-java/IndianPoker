@@ -87,7 +87,7 @@ public class IndianPoker{
 		PlayingCard cardA = deck.get(cardIdA);  
 		PlayingCard cardB = deck.get(cardIdB);  
 		
-		//メッセージ表示
+		//メッセージ表示、入力値を取得
 		int iAnser = sh.select_message(cardA.number);
 		//Highの場合trueに変換
 		boolean bAnser = (iAnser == 1); 
